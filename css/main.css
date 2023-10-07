@@ -1,0 +1,324 @@
+.container {
+    max-width: 1246px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.top_mnu>ul>li {
+    display: inline-block;
+    margin-right: 42px;
+}
+
+.top_mnu ul li:last-child {
+
+    margin-right: 0;
+}
+
+.top_mnu ul li a {
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+
+}
+
+.top_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top_line .block {
+    align-items: center;
+}
+
+.btn {
+    border: 1px solid wheat;
+    box-sizing: border-box;
+    width: 213px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12ox;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Montserrat;
+}
+
+.lang {
+    margin-left: 40px;
+}
+
+.lang ul li {
+    display: inline-block;
+    padding-left: 5px;
+    position: relative;
+}
+
+.lang ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.lang ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 14px;
+    width: 1px;
+    background-color: #FFF;
+}
+
+.lang ul li:first-child::before {
+    display: none;
+}
+
+.top_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.top_line {
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main-swiper .swiper-slide {
+    height: 768px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-swiper .swiper-slide .text-wrap h2 {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.main-swiper .swiper-slide .text-wrap p {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 40px;
+
+}
+
+.main-swiper .swiper-slide .text-wrap a {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #eec488;
+}
+
+.main-swiper .swiper-slide {
+    position: relative;
+}
+
+.main-swiper .swiper-slide .text-wrap {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    max-width: 1246px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn2 {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.main_slider_sec {
+    position: relative;
+    height: 756px;
+
+}
+
+.btns_block {
+    position: absolute;
+    right: 0;
+    bottom: 75px;
+    z-index: 1;
+}
+
+.btn_comparison{
+    position: relative;
+}
+
+.comparison_num {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 14px;
+    line-height: 16px;
+    color: white;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background-color: #eec488;
+
+
+
+
+
+}
+.review-swiper .swiper-slide p{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 0 auto;
+    max-width: 608px;
+    opacity: 0.7;
+    position: relative;
+    padding-bottom: 50px;
+}
+.review-swiper .swiper-slide p::before {
+    position: absolute;
+    content:"" ;
+    background-image: url(../images/quote.svg);
+left: 50%;
+transform: translateX(-50%);
+bottom: 0;
+width: 21px;
+height: 18px;
+}
+.review-swiper .swiper-slide h3{
+    color: var(--Accent-color, #EEC48B);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+text-transform: uppercase;
+
+text-align: center;
+padding-top: 40px;
+}
+
+.container_2 {
+    top: 1658px;
+    left: 60;
+    right: 834;
+    color: white;
+    padding: 10px;
+    background-image: none;
+    display: flex;
+}
+
+.png_96{
+    
+    left: 115px;
+    right: 643;
+    width: 608px;
+   height: 395px;
+   flex-shrink: 0;
+}
+
+.wrap_2{
+left: 1206px;
+right: 60px;
+top: 1292px;
+}
+.Box{
+   
+    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+.sec7 h2 {
+    text-align: center;
+padding-bottom: 80px;
+
+}
+section.sec7 {
+    padding: 100px 0;
+    position: relative;
+
+}
+.swiper-nav div{
+    position: absolute;
+    top: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+
+}
+.review-button-prev{
+    left:105px;
+}
+.review-button-next {
+    right: 105px;
+}
+
+
+
+
+
+
+
+
